@@ -1,6 +1,8 @@
-export default function Root() {
+import { Link } from "@remix-run/react";
+
+export default function Index() {
     return (
-      <div>Root</div>
+      <Link to="/remix">remix</Link>
     );
   }
   
