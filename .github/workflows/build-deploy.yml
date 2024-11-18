@@ -32,11 +32,11 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
       - name: install
-        run:
-          npm ci
+        run: npm ci
       - name: build
-        run:
-          npm run build    
+        run: npm run build 
+      - name: Copy index.html to 404.html (for SPA fallback)
+        run: cp build/client/index.html build/client/404.html   
       - name: Setup Pages
         uses: actions/configure-pages@v4
       - name: Upload artifact
