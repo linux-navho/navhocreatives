@@ -9,8 +9,10 @@ declare module "@remix-run/node" {
 }
 
 export default defineConfig({
+  base: "/navhocreatives/",
   plugins: [
     remix({
+      basenaem: "/navhocreatives/",
       ssr: false,
       future: {
         v3_fetcherPersist: true,
