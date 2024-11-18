@@ -17,12 +17,12 @@ export default function Index() {
           </h1>
           <div className="h-[144px] w-[434px]">
             <img
-              src="navhocreatives/logo-light.png"
+              src="/navhocreatives/logo-light.png"
               alt="Remix"
               className="block w-full dark:hidden"
             />
             <img
-              src="navhocreatives/logo-dark.png"
+              src="/navhocreatives/logo-dark.png"
               alt="Remix"
               className="hidden w-full dark:block"
             />
